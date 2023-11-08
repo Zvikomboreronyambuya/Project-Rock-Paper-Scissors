@@ -1,0 +1,85 @@
+body{
+  background-color:  #EFE9F4;
+}
+
+
+.game {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .results {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  #game-result {
+    font-weight: bold;
+  }
+  
+  footer{
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #021227;
+  }
+
+  #play-again {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+}
+
+
+/* Style the Rock, Paper, and Scissors buttons */
+button#rock {
+    background-color: #FF6B6B; /* Red color for Rock button */
+    color: #fff; /* White text color for contrast */
+    border-radius: 5px; /* Add a slight border radius for a rounded look */
+}
+
+button#paper {
+    background-color: #78D7F7; /* Light blue color for Paper button */
+    color: #000; /* Black text color for contrast */
+    border-radius: 5px;
+}
+
+button#scissors {
+    background-color: #8AC926; /* Green color for Scissors button */
+    color: #fff; /* White text color for contrast */
+    border-radius: 5px;
+}
+
+button#play-again {
+    background-color: #FFD166; /* Yellow color for Play Again button */
+    color: #000; /* Black text color for contrast */
+    border-radius: 5px;
+}
+
+/* Add hover and active (clicked) styles */
+button:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+button:active {
+  transform: scale(0.95); /* Scale down slightly when clicked */
+}
+
